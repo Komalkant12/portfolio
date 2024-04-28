@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Gabarito', sans-serif;
+  }
 
 body{
     background-image: url("assets/bg.png");
@@ -8,8 +15,15 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding:0px 100px;
 }
 
 .portfolio-card {
     background-color: rgba(218 , 128, 128 , 0 , 173);
 }
+.gradient-text {
+    background: linear-gradient(white, rgba(134, 78, 173));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
