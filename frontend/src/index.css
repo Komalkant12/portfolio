@@ -38,3 +38,17 @@ body{
     border-radius: 15px;
     background: linear-gradient(to right, rgb(44, 110, 164), rgb(19, 13, 193));
   }
+
+  .scroll-bar::-webkit-scrollbar {
+    width:5px;
+    background-color: transparent
+  }
+
+  .scroll-bar::-webkit-scrollbar-thumb{
+    background-color: rgb(80, 59, 240);
+    border-radius: 20px;
+  }
+
+  .scroll-hide::-webkit-scrollbar {
+    display: none;
+  }

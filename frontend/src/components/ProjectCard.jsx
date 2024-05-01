@@ -6,7 +6,7 @@ import { RiSignalTowerLine } from "react-icons/ri";
 
 const ProjectCard = () => {
   return (
-    <div className='p-4 '>
+    <div className='p-4 m-4 '>
     <div className='h-90% w-[320px] md:w-[320p] border-2 border-gray-200 border-opacity-60 rounded-2xl overflow-clip lg:overlow-hidden hover:shadow-md lg:hover:scale-105 transition-all backdrop-blur-3xl shadow-xl'>
       <a href="">
         <img src={Project1} alt="QuickMail"   className="lg:h-48 h-[200px] w-full object-cover object-center" />
