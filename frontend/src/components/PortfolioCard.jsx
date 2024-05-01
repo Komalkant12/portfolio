@@ -4,7 +4,9 @@ import React from 'react'
 
 const PortfolioCard = () => {
     return (
-      <div
+      <div data-aos = 'flip-left'
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
         className=" mb-12 lg:mb-23 px-3 lg:p-3 text-white w-[80vw] lg:w-[30vw] backdrop-blur-md border border-gray-500 select-none rounded-2xl my-10 
         lg:my-[200px] hover:scale-110 transition-all delay-100 hover:border-white shadow-lg portfolio-card"
       >

@@ -14,6 +14,7 @@ const ProjectSection = () => {
   const hScrollLeft = () => {
     scrollRef.current.scrollLeft -= 500;
   };
+
   return (
     <div data-aos="fade-down" className="mb-20 lg:mb-36">
       <h1 className="text-5xl lg:text-7xl gradient-text mb-10">My Projects</h1>
@@ -32,7 +33,7 @@ const ProjectSection = () => {
           onClick={hScrollLeft}
           className="text-xl lg:text-2xl cursor-pointer text-blue-600 hidden lg:block"
         />
-        <h2 className="gradient-text font-mono text-lg uppercase">
+        <h2 className="gradient-text  font-mono text-xl ">
           Slide for more
         </h2>
         <HiArrowSmRight
