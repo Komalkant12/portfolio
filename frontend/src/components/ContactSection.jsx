@@ -1,14 +1,14 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from 'react';
+
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const ContactSection = () => {
-  return (
+  return ( 
     <div
     data-aos="fade-left"
     className='flex flex-col lg:flex-row lg:items-center mb-20 lg:mb-36'>
-      <span className='uppercase text-3xl lg:flex-row lg:text-2xl font-bold gradient-text mb-8 lg:mb-0 rotate-0 lg:-rotate-90'>
-        Get Started
+      <span className='uppercase text-3xl lg:flex-row lg:text-2xl font-bold gradient-text mb-8 lg:mb-0 rotate-0 lg:-rotate-90'>        Get Started
         </span>
 
       <div className="flex flex-col lg:flex-row lg:ml-20 lg:gap-36">
@@ -63,7 +63,7 @@ const ContactSection = () => {
             />
             <button
               type="submit"
-              className="px-3 py-2 text-lg lg:text-2xl  bg-blue-700  hover:bg-blue-400 border font-bold text-white rounded-lg"
+              className="px-3 py-2 text-lg lg:text-2xl  bg-blue-900  hover:bg-blue-700 border font-bold text-white rounded-lg"
             >
               Send Message
             </button>
