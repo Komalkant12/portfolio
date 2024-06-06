@@ -75,7 +75,7 @@ exports.login = async (req, res) => {
             path: "/",
             httpOnly: true, 
             expires: new Date(Date.now() + 1000 * 30),  // Expires in 30s
-            sameSite: "lax"
+            sameSite: "lax",
         });
 
         return res.status(200).json({ success: true, message: "Logged in" });

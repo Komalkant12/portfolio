@@ -16,15 +16,17 @@ exports.getUser = async (req,res)=> {
 };
 
 //get admin user
-exports.authUser  = async(req,res)
-const userId = req.id;
-try {
-    const user = await User.findById(userId, "-password");
-    return res.staus(200).json({success: true,user});
-}
-    catch(error){
-        res.status(500).json({success:false, message:error.message});
+exports.authUser  = async(req,res)=>{
+    const userId = req.id;
+    try {
+        const user = await User.findById(userId, "-password");
+        return res.status(200).json({success: true,user});
     }
+        catch(error){
+            res.status(500).json({success:false, message:error.message});
+        }
+}
+
 
     
 
