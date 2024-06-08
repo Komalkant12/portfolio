@@ -1,0 +1,42 @@
+const Skill = require("../models/SkillModel")
+
+exports.getSkills = async(res,req) => {
+    try{
+        const skills = await skill.find();
+        if(!skills)
+        return res 
+    .status(404)
+    .json({success:false, message:"Skill not found"});
+    return res.status(200).json({success:false, message:error.message});
+
+    }catch(error){
+    return res.status(500).json({success:false, message:error.message})
+    }
+};
+
+exports.addSkill =async () => {
+   const{skill, level} = req.body;
+   try{
+  const newSkill=  await Skill.create({skill, level});
+     await newSkill.save();
+     return res.status(201).json({success:true, message:"new skill added"})
+    }
+   catch(error){
+    return res.status(500).json({success:false, message:error.message})
+    }
+}
+
+exports.removeSkill  = async(req,res) => {
+    const {id} = req.params
+    try{
+        const skill = await skill.findByIdAndDelete(id);
+        if(!skill)
+        return res 
+    .status(404)
+    .json({success:false, message:"Skill not found"});
+    return res.status(200).json({success:false, message:"Skill deleted"});
+    } catch(error) {
+    return res.status(500).json({success:false, message:error.message});
+    }
+}
+

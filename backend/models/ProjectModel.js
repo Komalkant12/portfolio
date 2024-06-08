@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const ProjectSchema = new mongoose.SchemaTypes(
+const ProjectSchema = new mongoose.Schema(
     {
         name:String,
         desc:String,
@@ -13,4 +13,4 @@ const ProjectSchema = new mongoose.SchemaTypes(
     {timestamps:true}
 );
 
-module.exports = monngoose.model("project", ProjectSchema);
+module.exports = mongoose.model("project", ProjectSchema);

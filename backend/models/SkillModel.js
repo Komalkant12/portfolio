@@ -12,4 +12,4 @@ const skillSchema = new mongoose.Schema(
   {timestamps: true}
 );
 
-module.exports = mongoose.model("skill", SkillSchema);
+module.exports = mongoose.model("skill", skillSchema);
