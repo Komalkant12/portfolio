@@ -6,7 +6,7 @@ const{refreshToken} = require("../middleware/refreshToken")
 const {checkUser} = require("../middleware/checkUser")
 const {getSkills, addSkill , removeSkill} = require("../controllers/SkillController");
  const{getProjects, addProject , removeProject , updateProject} = require("../controllers/projectController")
-
+ const{contact} = require ('../controllers/ContactController')
  const router = express.Router();
 
 //authentication routes
@@ -30,4 +30,7 @@ router.get("/getProjects",getProjects)
 router.post("/addProject",addProject)
 router.delete("/removeProject/:id", removeProject)
 router.get("/updateProject/:id", updateProject)
+
+//contact routes
+router.post("/contact",contact)
 module.exports = router;
