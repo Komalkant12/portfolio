@@ -4,9 +4,9 @@ import React from 'react'
 import myimg from "../assets/myimg.jpg"
 const HomeCard = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-3 lg:gap-3 justify-between items-center  mb-20 lg:mb-30">
-    <div data-aos="fade-up-right" className="flex flex-col gap-3 lg:w-[55%]">
-     <h1 className= "text-5xl lg:text-7xl mb-8 gradient-text">Hey!👋, </h1>
+    <div className="flex flex-col lg:flex-row gap-2 lg:gap-2 justify-between items-center  mb-10 lg:mb-10">
+    <div data-aos="fade-up-right" className="flex flex-col gap-2 lg:w-[55%]">
+     <h1 className= "text-5xl lg:text-7xl mb-6 gradient-text">Hey!👋, </h1>
      <h1 className= "text-3xl lg:text-5xl  gradient-text"> I'm KOMALKANT DESHMUKH,</h1>
       <p className="text-gray-200  text-xl lg:text-xl ">
         A passionate web developer and student of Computer Science Engineering from Chhatrapati Institute of technology, Durg. Having the experience as a intern REACT DEVELOPER & working on four live projects.

@@ -11,11 +11,9 @@ const ProjectCard = () => {
       <a href="">
         <img src={Project1} alt="QuickMail"   className="lg:h-48 h-[200px] w-full object-cover object-center" />
       </a>
-      <div className='p-4 flex flex-col lg:gap-3'>
-       
-          <h2 className="tracking-widest text-2xl text-white" >QuickMail</h2>
-        
-        <h1 className='text-lg ld:text-xl font-600 text-gray-300'>
+       <div className='p-4 flex flex-col lg:gap-3'>
+        <h2 className="tracking-widest text-2xl text-white" >QuickMail</h2>
+         <h1 className='text-lg ld:text-xl font-600 text-gray-300'>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Inventore nisi illo expedita itaque pariatur ab quaerat eos corporis possimus doloribus.
         </h1>

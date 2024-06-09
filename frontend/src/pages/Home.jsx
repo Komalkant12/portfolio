@@ -1,5 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React , {useEffect} from "react";
+import { BrowserRouter as Router, Routes} from 'react-router-dom';
+
+ import Navbar from "../components/Navbar";
 import PortfolioCard from "../components/PortfolioCard";
 import HomeCard from "../components/HomeCard";
 import AboutCard from "../components/AboutCard";
@@ -21,12 +24,18 @@ const Home = () => {
   }, [])
   return (
     <div className="">
-      <PortfolioCard />
+     <Router>
+        <Navbar/>
+      </Router> 
+   <Routes>
+     <PortfolioCard />
       <HomeCard />
       <AboutCard />
       <SkillSection />
       <ProjectSection />
       <ContactSection/>
+   </Routes>
+     
     </div>
   );
 };

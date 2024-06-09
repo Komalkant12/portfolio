@@ -4,6 +4,7 @@ import React from 'react'
 
 const PortfolioCard = () => {
     return (
+      <div>
       <div data-aos = 'flip-left'
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
@@ -17,6 +18,10 @@ const PortfolioCard = () => {
           Komalkant Deshmukh
         </h3>
         <h3 className="text-xl lg:text-2xl py-3">MERN Stack Web Developer</h3>
+      </div>
+
+      {/* //profile section */}
+      
       </div>
     );
   };

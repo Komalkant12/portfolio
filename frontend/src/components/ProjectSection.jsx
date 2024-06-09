@@ -1,6 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import ProjectCard1 from "./ProjectCard1";
 import ProjectCard from "./ProjectCard";
+import ProjectCard2 from "./ProjectCard2";
+import ProjectCard3 from "./ProjectCard3";
 import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 import { useRef } from "react";
 
@@ -23,10 +26,10 @@ const ProjectSection = () => {
         className="flex overflow-x-scroll gap-8 lg:p-3 scroll-hide"
       >
         <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCard1 />
+        <ProjectCard2 />
+        <ProjectCard3 />
+     
       </div>
       <div className="flex justify-center items-center gap-3 mt-2 select-none">
         <HiArrowSmLeft
