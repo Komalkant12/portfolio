@@ -1,25 +1,25 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
-    <div data-aos="zoom-in-left" className="">
-      <div className="flex justify-end p-4 mt-10  m-6 text-3xl lg:text-2x mb-10  space-y-4 gradient-text">
+    <div data-aos="zoom-in-left" className="mt-10">
+      <div className="flex justify-end p-4 mb-5  m-1 text-3xl lg:text-2x   space-y-2 gradient-text">
         <ul className="flex space-x-10">
         <li>
-        <h1><a href="/frontend/src/components/PortfolioCard.jsx">Home</a></h1>
+        <Link to="/">Home</Link>
         </li>
         <li>
-        <h1><a href="/frontend/src/components/AboutCard.jsx">About</a></h1>
+        <Link to="/about">About</Link>
         </li>
         <li>
-        <h1><a href="/frontend/src/components/ProjectCard.jsx">Projects</a></h1>
+        <Link to="/skill">Skills</Link>
         </li>
         <li>
-        <h1><a href="./SkillCard">Skill</a></h1>
+        <Link to="/project">Projects</Link>
         </li>
         <li>
-        <h1><a href="">Contact</a></h1>
+        <Link to="/contact">Contact</Link>
         </li>
         
         </ul>

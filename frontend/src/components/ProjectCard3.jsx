@@ -12,16 +12,16 @@ const ProjectCard3 = () => {
         <img src={Project4} alt="QuickMail"   className="lg:h-48 h-[200px] w-full object-cover object-center" />
       </a>
        <div className='p-4 flex flex-col lg:gap-3'>
-        <h2 className="tracking-widest text-2xl text-white" >QuickMail</h2>
+        <h2 className="tracking-widest text-2xl text-white" >My OnlineMeal</h2>
          <h1 className='text-lg ld:text-xl font-600 text-gray-300'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Inventore nisi illo expedita itaque pariatur ab quaerat eos corporis possimus doloribus.
+         OnlineMeal is a food ordering website with integrated with login/signup desing using PHP  features allows users to browse menus, services, and clients,
+          enhancing user experience and operational efficiency.
         </h1>
         <div className="flex items-center justify-between" >
-          <a href="#">
+          <a href="https://github.com/Komalkant12/My-OnlineMeal">
           < FaGithub className='text-white font-bold inline-flex item-center text-lg md:text-xl md:mb-2 lg:mb-0 hover:text-gray-600 cursor-pointer' />
           </a>
-          <a href="#">
+          <a href="https://my-online-meal-hazel.vercel.app/">
           <RiSignalTowerLine className='text-white font-bold inline-flex item-center text-lg md:text-xl md:mb-2 lg:mb-0 hover:text-gray-600 cursor-pointer' />
           </a>
         </div>

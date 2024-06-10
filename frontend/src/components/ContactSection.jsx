@@ -30,9 +30,18 @@ const ContactSection = () => {
                     </a>
             </div>
             <div className="flex gap-2 mt-2">
+            <a href="https://github.com/komalkant12" target="_blank" rel="noopener noreferrer">
             <AiFillGithub className="text-white text-2xl" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/komalkant-deshmukh-80230a225/">
             <AiFillLinkedin className="text-white text-2xl" />
+            </a>
+            
+            <a href="https://www.linkedin.com/in/komalkant-deshmukh-80230a225/">
             <AiFillInstagram className="text-white text-2xl" />
+            </a>
+
           </div>
           <h2 className="text-2xl font-bold font-mono text-white text-center">
             OR

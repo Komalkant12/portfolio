@@ -12,13 +12,13 @@ const ProjectCard1 = () => {
         <img src={Project2} alt="QuickMail"   className="lg:h-48 h-[200px] w-full object-cover object-center" />
       </a>
        <div className='p-4 flex flex-col lg:gap-3'>
-        <h2 className="tracking-widest text-2xl text-white" >QuickMail</h2>
+        <h2 className="tracking-widest text-2xl text-white" >ForecastingFlow</h2>
          <h1 className='text-lg ld:text-xl font-600 text-gray-300'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Inventore nisi illo expedita itaque pariatur ab quaerat eos corporis possimus doloribus.
+         A sales forecasting ML model predicts future sales using historical data, helping businesses optimize inventory,
+          budget, and strategy by anticipating demand trends and improving decision-making accuracy.
         </h1>
         <div className="flex items-center justify-between" >
-          <a href="#">
+          <a href="https://github.com/Komalkant12/E-Commerce-Dashboard">
           < FaGithub className='text-white font-bold inline-flex item-center text-lg md:text-xl md:mb-2 lg:mb-0 hover:text-gray-600 cursor-pointer' />
           </a>
           <a href="#">

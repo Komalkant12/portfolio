@@ -14,8 +14,7 @@ const ProjectCard = () => {
        <div className='p-4 flex flex-col lg:gap-3'>
         <h2 className="tracking-widest text-2xl text-white" >QuickMail</h2>
          <h1 className='text-lg ld:text-xl font-600 text-gray-300'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Inventore nisi illo expedita itaque pariatur ab quaerat eos corporis possimus doloribus.
+         QuickMail is a automatic AI email generator website built using the MERN stack automates email creation by leveraging AI. Users input subject and content and the AI generates  appropriate emails. 
         </h1>
         <div className="flex items-center justify-between" >
           <a href="#">
