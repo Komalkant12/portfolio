@@ -4,6 +4,7 @@ import React from 'react';
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const ContactSection = () => {
+  
   return ( 
     <div
     data-aos="fade-left"
@@ -47,8 +48,9 @@ const ContactSection = () => {
             OR
           </h2>
         </div>
+
         <div>
-          <form className="flex flex-col p-3">
+          <form className="flex flex-col p-3" >
             <input
               type="text"
               name="name"

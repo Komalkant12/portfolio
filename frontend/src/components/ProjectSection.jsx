@@ -4,6 +4,10 @@ import ProjectCard1 from "./ProjectCard1";
 import ProjectCard from "./ProjectCard";
 import ProjectCard2 from "./ProjectCard2";
 import ProjectCard3 from "./ProjectCard3";
+import ProjectCard4 from "./ProjectCard4";
+import ProjectCard5 from "./ProjectCard5";
+import ProjectCard6 from "./ProjectCard6";
+import ProjectCard7 from "./ProjectCard7";
 import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 import { useRef } from "react";
 
@@ -25,10 +29,18 @@ const ProjectSection = () => {
         ref={scrollRef}
         className="flex overflow-x-scroll gap-8 lg:p-3 scroll-hide"
       >
-        <ProjectCard />
         <ProjectCard1 />
+        <ProjectCard />
         <ProjectCard2 />
+        <ProjectCard6 />
+        <ProjectCard7 />
         <ProjectCard3 />
+        <ProjectCard5 />
+        <ProjectCard4 />
+        
+        
+        
+        
      
       </div>
       <div className="flex justify-center items-center gap-3 mt-2 select-none">
