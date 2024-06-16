@@ -2,7 +2,7 @@
     "version": 2,
     "name": "Quick-mail",
     "builds": [
-       { "src": "/server/index.js", "use": "@vercel/node" }
+       { "src": "/backend/index.js", "use": "@vercel/node" }
     ],
     "routes": [
        { "src": "/(.*)", "dest": "/backend/index.js" }
